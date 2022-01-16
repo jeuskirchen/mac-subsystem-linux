@@ -1,4 +1,4 @@
-### ubuntu subsystem on mac
+### Mac Subsystem for Linux 
 
 1. Install docker.  
 2. Create `ubuntu.sh` and put it on `PATH` (e.g. `/usr/local/bin`).  
