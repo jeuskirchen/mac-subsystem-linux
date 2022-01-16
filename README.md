@@ -1,3 +1,5 @@
+### ubuntu subsystem on mac
+
 - you need docker installed 
 - create `ubuntu.sh` and put it on `PATH` (e.g. `/usr/local/bin`) 
   Make sure that the correct username is set so the right home directory can be mounted in the subsystem.
