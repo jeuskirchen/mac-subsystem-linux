@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>mac-subsystem-ubuntu</string> 
+    <string>ubuntu.subsystem</string> 
 
     <key>OnDemand</key>
     <false/>
