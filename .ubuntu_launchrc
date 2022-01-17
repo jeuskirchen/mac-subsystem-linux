@@ -3,12 +3,18 @@
 # This shell script is run when starting up the ubuntu docker-based subsystem.
 
 apt-get update;
-apt-get install -y vim man sudo bat git;
+apt-get install -y \
+	vim \
+	man \
+	sudo \
+	bat \
+	git;
 
 # What would be cool are checkboxes (like when setting up a vue or nuxt project => vue cli),
 # to select which packages I will need in this container
 
-alias bat=batcat;
+alias bat=batcat; 
+# batcat alias doesn't work for some reason 
 alias apt=apt-get;
 
 # git config ...

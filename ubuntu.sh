@@ -1,6 +1,8 @@
 #!/bin/bash
 # mac subsystem ubuntu 
 
+# TODO: using docker in subsystem should control docker client on mac
+
 USERNAME=janikeuskirchen
 CONTAINER_NAME=ubuntu 
 CMD=$1
