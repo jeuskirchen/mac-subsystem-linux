@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Stuff that should be run every time a new shell is started (running "ubuntu" on the host system).
+
+. /etc/os-release;
+clear;
+echo $NAME $VERSION;  # make colorful?

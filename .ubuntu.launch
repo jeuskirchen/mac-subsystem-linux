@@ -1,6 +1,4 @@
 #!/bin/bash
-# ubunturc (ubuntu run commands)
-# This shell script is run when starting up the ubuntu docker-based subsystem.
 
 apt-get update;
 apt-get install -y \
@@ -8,13 +6,13 @@ apt-get install -y \
 	man \
 	sudo \
 	bat \
+	python3 \
+	python3-pip \
+	curl \
+	micro \
 	git;
 
 # What would be cool are checkboxes (like when setting up a vue or nuxt project => vue cli),
 # to select which packages I will need in this container
-
-alias bat=batcat; 
-# batcat alias doesn't work for some reason 
-alias apt=apt-get;
 
 # git config ...

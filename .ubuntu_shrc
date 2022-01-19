@@ -1,5 +1,0 @@
-#!/bin/bash
-
-. /etc/os-release; 
-clear;
-echo $NAME $VERSION;
